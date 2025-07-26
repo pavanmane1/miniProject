@@ -19,9 +19,7 @@ const AutocompleteSearch = () => {
     }
 
     useEffect(() => {
-
         fetchData()
-
     }, [input])
     return (
         <>
